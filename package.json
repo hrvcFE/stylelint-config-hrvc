@@ -1,0 +1,29 @@
+{
+  "name": "stylelint-config-hrvc",
+  "version": "1.0.0",
+  "description": "华睿投资前端团队StyleLint规则集",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrvcFE/stylelint-config-hrvc.git"
+  },
+  "keywords": [
+    "stylelint-config"
+  ],
+  "author": "waycowei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hrvcFE/stylelint-config-hrvc/issues"
+  },
+  "homepage": "https://github.com/hrvcFE/stylelint-config-hrvc#readme",
+  "peerDependencies": {
+    "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0",
+    "stylelint-scss": "^3.0.0"
+  },
+  "dependencies": {
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
