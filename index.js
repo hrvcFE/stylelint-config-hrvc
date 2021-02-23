@@ -22,10 +22,6 @@ module.exports = {
      */
     "font-family-no-duplicate-names": true,
     /**
-     * 要求或禁止在 url 中使用 data URI
-     */
-    "function-url-data-uris": true,
-    /**
      * 长度为0时，禁止使用单位
      */
     "length-zero-no-unit": true,
@@ -45,7 +41,7 @@ module.exports = {
     /**
      * 单行最大长度
      */
-    "max-line-length": 50,
+    "max-line-length": 100,
     /**
      * 禁止空注释
      */
