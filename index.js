@@ -9,8 +9,27 @@ module.exports = {
         "message": "类名不允许出现大写",
       }
     ],
-    "at-rule-no-unknown": null,
-    "scss/at-rule-no-unknown": true,
+    "at-rule-no-unknown": [
+      true,
+      {
+        ignoreAtRules: [
+          'mixin',
+          'use',
+          'forward',
+          'include',
+          'function',
+          'extend',
+          'error',
+          'warn',
+          'debug',
+          'at-root',
+          'if',
+          'each',
+          'for',
+          'while'
+        ]
+      }
+    ],
     /**
      * 缩进2空格
      */
