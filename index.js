@@ -24,6 +24,7 @@ module.exports = {
           'debug',
           'at-root',
           'if',
+          'else',
           'each',
           'for',
           'while'
