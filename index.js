@@ -36,6 +36,11 @@ module.exports = {
         "/^v-/"
       ]
     }],
+    "selector-pseudo-class-no-unknown": [true, {
+      ignorePseudoClasses: [
+        "deep"
+      ]
+    }],
     /**
      * 缩进2空格
      */
